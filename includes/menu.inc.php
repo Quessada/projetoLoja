@@ -10,7 +10,7 @@
         <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#valores" >Valores</a>
+        <a class="nav-link" href="#empresa" >Empresa</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#historia" aria-disabled="true">História</a>
@@ -18,9 +18,9 @@
       <li class="nav-item">
         <a class="nav-link" href="#contato" aria-disabled="true">Contato</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#" aria-disabled="true">Contato</a>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link" href="./produtos/index.php" aria-disabled="true">Produtos</a>
       </li>
