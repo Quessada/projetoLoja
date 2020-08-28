@@ -4,25 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K - Store</title>
+    <style>
+        ul span {
+            font-weight: bold;
+        }
+    </style>
 
-    <?php include "./includes/css.inc.php"; ?>
+    <?php include "../includes/css.inc.php"; ?>
 
 </head>
 <body>   
-    <?php include "./includes/menu.inc.php"; ?>
+    <?php include "../includes/menu.inc.php"; ?>
 
-    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/roupa1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/roupa2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/roupa3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
     <section id="empresa">
         <div class="container">
             <h3>Empresa</h3>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque autem debitis commodi quas natus harum tempore officiis molestias iure officia atque laudantium dolore magni, est, cum omnis asperiores aliquam eius.
+                <h4>K - Store</h4>
             <h5>Missão</h5>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius repellendus voluptatum quidem. Necessitatibus, fugiat. Aspernatur commodi, provident illum quos beatae reiciendis qui ad obcaecati id doloremque aperiam voluptatem, quo nesciunt.
+            <p class="text-justify">
+                Nossa missão é buscar levar sempre o melhor atendimento ao cliente, fornecendo um serviço de qualidade e com um preço justo.
+            </p> 
             <h5>Visão</h5>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum exercitationem quibusdam eaque sequi eligendi distinctio deserunt adipisci delectus tempore deleniti culpa, excepturi commodi, illo fuga eius odit ex vitae debitis.
+            <p class="text-justify">
+                Ser a empresa número 1 na cidade de Novo Horizonte com diversas lojas e o melhor atendimento do mercado.
+            </p> 
             <h5>Valores</h5>          
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus qui ipsa labore rerum, suscipit ut, accusamus tempore odit, fugit atque officia facilis facere error pariatur? Aliquam autem necessitatibus porro quod.  
+                <ul>
+                    <li> <span>Satisfação do cliente:</span>  Ele é a razão da existência de qualquer negócio.</li>
+                    <li> <span>Valorização e respeito às pessoas:</span>  São as pessoas o grande diferencial que torna tudo possível.</li>
+                    <li> <span>Atuar como parte integrante da empresa:</span>  Juntos nossa marca fica muito mais forte.</li>
+                    <li> <span>Responsabilidade social:</span>  É a única forma de crescer em uma sociedade mais justa.</li>
+                    <li> <span>Respeito ao Meio Ambiente:</span>  É isso que nos dá a perspectiva do amanhã.</li>
+                </ul>
+
+
         </div>
     </section>
 
@@ -39,7 +81,7 @@
         </div>
 
     </section>
-
+    <!----------------------------------------------CONTATO------------------------------------------------------ -->
     <section id="contato">
         <div class="container">
             <h3>Contato</h3>
@@ -74,8 +116,9 @@
         </div>
     </footer>
 
+    <a href="/produtos">aaaa</a>
 
-    <?php include "./includes/js.inc.php"; ?>
+    <?php include "../includes/js.inc.php"; ?>
     <script>
                
         
