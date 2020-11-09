@@ -46,8 +46,8 @@
                 <button type="submit" class="btn btn-primary btn-block">Entrar</button>
             </div>
             <div class="clearfix">
-                <a href="./create.php" class="float-left">Criar conta</a>
-                <a href="../index.php" class="float-right">Home</a>
+                <a href="./create" class="float-left">Criar conta</a>
+                <a href="/" class="float-right">Home</a>
             </div>
         </form>
     </div>

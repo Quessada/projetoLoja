@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K - Store - Administração</title>
     <style>
-        .login-form {
+        .create-form {
             width: 800px;
             margin: 50px auto;
             font-size: 15px;
@@ -15,10 +15,9 @@
     <?php include "../includes/css.inc.php" ?>
 </head>
 <body>
-
-    <div class="login-form">
+    <div class="create-form">
         <h3>Criação de Usuário</h3>
-        <form action="" method="">
+        <form action="/create-data" method="GET">
             <div class="form-group">
                 <label for="name">Nome</label>
                 <input class="form-control" type="text" name="name" id="name">
@@ -37,13 +36,16 @@
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-success" value="Cadastrar">
-                <a href="./login.php" class="btn btn-primary">Retornar</a>
+                <input type="reset" class="btn btn-danger" value="Limpar">
+                <a href="/login" class="btn btn-primary">Retornar</a>
             </div>
-            
         </form>
     </div>
     
 
     <?php include "../includes/js.inc.php" ?>
+    <script>
+        $("#cpf").mask("000.000.000-00");
+    </script>
 </body>
 </html>
